@@ -1,5 +1,6 @@
 package com.example.b12_training
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -15,6 +16,7 @@ const val BaseUrl = "https://api.publicapis.org/"
 class MainActivity : AppCompatActivity() {
     lateinit var myAdapter: MyAdapter
     lateinit var linearLayoutManager: LinearLayoutManager
+    lateinit var entries : List<entry>
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -32,17 +34,26 @@ class MainActivity : AppCompatActivity() {
 
         val retrofitData = retrofitBuilder.getPost()
 
-        retrofitData.enqueue(object : Callback<response?> {
+        retrofitData.enqueue(object : Callback<response?>, OnEntryClickListener {
             override fun onResponse(call: Call<response?>, response: Response<response?>) {
                 val responseBody = response.body()
-                myAdapter = MyAdapter(baseContext, responseBody!!.entries )
+                myAdapter = MyAdapter(baseContext, responseBody!!.entries,this)
                 myAdapter.notifyDataSetChanged()
                 ItemsRycycler.adapter = myAdapter
+                entries = responseBody!!.entries
 
             }
 
             override fun onFailure(call: Call<response?>, t: Throwable) {
                 Log.d("MainActivity","onFailuredddddddddddddddddddddddddddddddddddddddddddddddddddd")
+            }
+
+            override fun OnEntryClicked(position: Int) {
+                val intent = Intent(this@MainActivity,DetailsActivity::class.java)
+                intent.putExtra("API",entries[position].API)
+                intent.putExtra("Desc",entries[position].Description)
+                intent.putExtra("Cate",entries[position].Category)
+                startActivity(intent)
             }
         })
 
