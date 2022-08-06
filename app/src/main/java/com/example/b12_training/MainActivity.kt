@@ -50,9 +50,7 @@ class MainActivity : AppCompatActivity() {
 
             override fun OnEntryClicked(position: Int) {
                 val intent = Intent(this@MainActivity,DetailsActivity::class.java)
-                intent.putExtra("API",entries[position].API)
-                intent.putExtra("Desc",entries[position].Description)
-                intent.putExtra("Cate",entries[position].Category)
+                intent.putExtra("entry",entries[position])
                 startActivity(intent)
             }
         })

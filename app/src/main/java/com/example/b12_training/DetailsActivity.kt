@@ -9,13 +9,10 @@ class DetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
-        val entry = intent.extras
-        val API = entry?.get("API").toString()
-        val Desc = entry?.get("Desc").toString()
-        val Cate = entry?.get("Cate").toString()
-        APItv.text = "API :$API"
-        DescTV.text = "Desc :$Desc"
-        CateTv.text = "Cate :$Cate"
+        val entry = intent.getSerializableExtra("entry") as entry
+        APItv.text = "API :${entry.API}"
+        DescTV.text = "Desc :${entry.Description}"
+        CateTv.text = "Cate :${entry.Category}"
     }
 
 }
