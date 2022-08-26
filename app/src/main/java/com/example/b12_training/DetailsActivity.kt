@@ -13,6 +13,7 @@ class DetailsActivity : AppCompatActivity() {
         APItv.text = "API :${entry.API}"
         DescTV.text = "Desc :${entry.Description}"
         CateTv.text = "Cate :${entry.Category}"
+
     }
 
 }
