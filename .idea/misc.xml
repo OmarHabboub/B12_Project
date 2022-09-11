@@ -3,18 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/button.xml" value="0.149" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/button_login.xml" value="0.1295" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/elipse.xml" value="0.149" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.1505" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_baseline_table_rows_24.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_baseline_table_view_24.xml" value="0.1505" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_gmail.xml" value="0.149" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_launcher_background.xml" value="0.149" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_shape3.xml" value="0.1505" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/drawable/ic_shape_1_copy_3.xml" value="0.149" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/font/font.xml" value="0.234375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/font/fonts.xml" value="0.234375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/activity_details.xml" value="0.16417272338606242" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/activity_log_in.xml" value="0.2" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/activity_log_in.xml" value="0.10287303058387395" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/card.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/class_item.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/entryitem.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/fragment_dummy.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/fragment_dummyfra.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/fragment_login_page.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/fragment_recycler.xml" value="0.1464318813716404" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/layout/fragment_table.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/menu/bottom_navigation.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/B12_Training/app/src/main/res/menu/top_app_bar.xml" value="0.16547066272688898" />
       </map>
     </option>
   </component>

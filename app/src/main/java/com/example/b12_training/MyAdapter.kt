@@ -6,12 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.TextView
+import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.entryitem.view.*
 import retrofit2.Callback
 
 class MyAdapter(
-    val context: Context,
+    val context: FragmentActivity?,
     val entries: List<entry>,
     val onEntryClickListener: OnEntryClickListener
 ) : RecyclerView.Adapter<MyAdapter.itemViewHolder>() {

@@ -1,6 +1,7 @@
 package com.example.b12_training
 
 import android.content.Context
+import androidx.fragment.app.FragmentActivity
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
@@ -14,14 +15,14 @@ abstract class dataBase : RoomDatabase() {
         @Volatile
         private var Instance : dataBase? = null
 
-        fun getDatabase (context: Context) : dataBase {
+        fun getDatabase (context: FragmentActivity?) : dataBase {
             val tempInstance = Instance
             if (tempInstance!=null){
                 return tempInstance
             }
             synchronized(this){
                 val instance = Room.databaseBuilder(
-                    context.applicationContext,
+                    context!!.applicationContext,
                     dataBase::class.java,
                     "entriesDB").build()
                 Instance = instance
